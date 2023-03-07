@@ -1,16 +1,17 @@
-'use client'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import Landing from './landing'
-import AboutEcell from './about'
-const inter = Inter({ subsets: ['latin'] })
-import InitAndEvents from './InitAndEvents'
+import Navbar from '@/components/Navbar'
+import Initiatives from '@/components/Initiatives'
+import Events from '@/components/Events'
+import Landing from '@/components/Landing'
+import About from '@/components/About'
+
 export default function Home() {
   return (
     <div>
-      <Landing/>
-      <AboutEcell/>
-      <InitAndEvents/>
+      <Navbar />
+      <Landing />
+      {/* <About />
+      <Initiatives />
+      <Events /> */}
     </div>
   )
 }
