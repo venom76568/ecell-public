@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image"
-import About from "./assets/about.png"
-import BackImg from "./assets/BackgroundImage1.png";
 import Face from "./assets/facebook.png";
 import Insta from "./assets/insta.png";
 import Linkedin from './assets/Linkedin.png'
