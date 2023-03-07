@@ -1,3 +1,100 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.title {
+    position: absolute;
+    width: 1385px;
+    height: 334px;
+    left: 267px;
+    top: 241px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 120%;
+    /* or 115px */
+
+    text-align: center;
+}
+
+.line1 {
+    position: absolute;
+    width: 756px;
+    height: 0px;
+    left: calc(50% - 756px/2 - 580px);
+    top: 697px;
+    mix-blend-mode: normal;
+}
+
+.line2 {
+    position: absolute;
+    width: 760px;
+    height: 0px;
+    left: calc(50% - 760px/2 + 580px);
+    top: 699px;
+
+    mix-blend-mode: normal;
+}
+
+.twitter{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 + 122px);
+    top: 685px;
+
+    /* background: #FFFFFF; */
+}
+
+.utube {
+    position: absolute;
+width: 32px;
+height: 22.55px;
+left: calc(50% - 32px/2 - 0px);
+top: 686px;
+}
+
+.linkedin{
+    position: absolute;
+width: 24px;
+height: 22.55px;
+left: calc(50% - 24px/2 - 63px);
+top: 686px;
+}
+
+.face {
+    position: absolute;
+width: 24px;
+height: 24px;
+left: calc(50% - 24px/2 + 63px);
+top: 685px;
+}
+
+.insta {
+    position: absolute;
+width: 24px;
+height: 22.55px;
+left: calc(50% - 24px/2 - 122px);
+top: 686px;
+}
+
+.explore{
+    position: absolute;
+width: 205px;
+height: 32px;
+left: 857px;
+top: 866px;
+
+font-family: 'serif';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 112%;
+/* or 40px */
+
+text-align: center;
+letter-spacing: 0.04em;
+
+color: #0298F9;
+}
