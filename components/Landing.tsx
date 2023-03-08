@@ -11,16 +11,16 @@ const raleway = Raleway({
 
 const Landing = () => {
     return (
-        <div className="min-h-screen bg-[linear-gradient(to_bottom,rgba(0,0,0,0.8),rgba(0,0,0,0.56)),url('/assets/BackgroundImage1.png')] bg-no-repeat bg-left bg-cover">
-            <div className="h-screen bg-black bg-opacity-[0.1]">
+        <div className="min-h-screen bg-[url('/assets/BackgroundImage1.png')] bg-no-repeat bg-left bg-cover">
+            <div className="h-screen bg-gradient-to-r from-[rgba(0,0,0,0.8)] to-[rgb(0,0,0,0.56)] bg-opacity-[0.2]">
                 <div className="h-full grid grid-rows-6 items-center text-white">
-                    <div className="row-span-3 text-center text-8xl font-black px-4 space-y-4">
+                    <div className="row-span-3 text-center text-7xl font-bold px-4 space-y-4">
                         <h1 className="text-white">THE</h1>
                         <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#086BEA] to-[#0298F9]">ENTREPRENEURSHIP CELL</h1>
                         <h1 className="text-white">VNIT NAGPUR</h1>
                     </div>
-                    <div className="self-center flex gap-2">
-                        <div className="w-2/5 bg-gradient-to-r from-[#086BEA] to-[#0298F9] my-3" />
+                    <div className="self-center flex gap-8">
+                        <div className="w-2/5 bg-gradient-to-r from-[#0298F9] via-[#0482F1] to-[#086BEA] my-[13px] mix-blend-normal" />
                         <div className="w-1/5 flex gap-10 justify-center self-start">
                             <Link
                                 className="hover:opacity-75"
@@ -124,10 +124,14 @@ const Landing = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="w-2/5 bg-gradient-to-r from-[#086BEA] to-[#0298F9] my-3" />
+                        <div className="w-2/5 bg-gradient-to-r from-[#0298F9] via-[#0482F1] to-[#086BEA] my-[13px] mix-blend-normal" />
                     </div>
                     <div className={classNames("self-center flex justify-center items-center font-bold", raleway.className)}>
-                        <div className="border-4 text-3xl text-center text-blue-400 border-blue-500 py-6 px-16 uppercase tracking-widest leading-6 text-blue-40">Explore</div>
+                        <div className="text-2xl text-center text-[#0298F9] bg-gradient-to-r from-[#009FFA] via-[#0298F9] to-[#086BEA] p-1 uppercase tracking-widest leading-6">
+                            <div className="h-full w-full py-6 px-10 bg-black">
+                                Explore
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

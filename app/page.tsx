@@ -3,15 +3,17 @@ import Initiatives from '@/components/Initiatives'
 import Events from '@/components/Events'
 import Landing from '@/components/Landing'
 import About from '@/components/About'
+import Stats from '@/components/Stats'
 
 export default function Home() {
   return (
-    <div>
+    <div className=''>
       <Navbar />
       <Landing />
-      {/* <About />
-      <Initiatives />
-      <Events /> */}
+      <About />
+      <Stats />
+      {/* <Initiatives /> */}
+      {/* <Events /> */}
     </div>
   )
 }
