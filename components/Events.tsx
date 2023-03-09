@@ -14,7 +14,7 @@ import Image from "next/image";
 
 const Events = () => {
   return (
-    <div className="min-h-screen mt-20 bg-[url('/assets/back3.png')] bg-no-repeat bg-bottom bg-cover bg-blend-luminosity">
+    <div id="events" className="min-h-screen mt-20 bg-[url('/assets/back3.png')] bg-no-repeat bg-bottom bg-cover bg-blend-luminosity">
       <div className="bg-gradient-to-b from-[rgba(0,0,0,0.14)] to-[rgba(0,0,0.4,1)]">
         <div className="flex flex-col gap-3 items-center justify-center text-6xl font-semibold">
           <span className="uppercase text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA]">Events</span>

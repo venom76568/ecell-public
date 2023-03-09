@@ -4,8 +4,8 @@ import ecellLogoWhite from "../public/assets/ecell-white-img.png";
 
 const Footer = () => {
   return (
-    <footer id="contact" className="bg-black text-white text-center">
-      <div className="px-4 pt-10 pb-6 sm:px-6 lg:px-8">
+    <footer id="footer" className="bg-black text-white text-center">
+      <div className="px-4 pb-6 sm:px-6 lg:px-8">
         <div className="flex flex-col">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
             <div className="flex flex-col items-center">

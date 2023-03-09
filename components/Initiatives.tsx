@@ -6,7 +6,7 @@ import CS from "../public/assets/CS.png";
 
 const Initiatives = () => {
   return (
-    <div className="min-h-screen mt-20 bg-[url('/assets/back.png')] bg-no-repeat bg-center bg-cover background-blend-luminosity">
+    <div id="initiatives" className="min-h-screen mt-20 bg-[url('/assets/back.png')] bg-no-repeat bg-center bg-cover background-blend-luminosity">
       <div className="bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.2)]">
         <div className="flex flex-col gap-3 items-center justify-center text-6xl font-semibold">
           <span className="uppercase text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA]">Initiatives</span>

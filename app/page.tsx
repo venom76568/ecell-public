@@ -18,8 +18,8 @@ export default function Home() {
         <Initiatives />
         <Events />
         <Contact />
+        <Footer />
       </div>
-      <Footer />
     </div>
   )
 }

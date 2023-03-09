@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
     return (
-        <div className="bg-[#0C0C0C]">
+        <div id="about" className="bg-[#0C0C0C]">
             <div className="min-h-screen bg-[url('/assets/back2.png')] bg-cover bg-no-repeat bg-blend-luminosity">
                 <div className="h-screen bg-gradient-to-b from-[rgba(0,0,0,1)] to-[rgba(12,12,12,0.8)] grid grid-cols-1 content-center bg-opacity-80">
                     <div className="px-10">
