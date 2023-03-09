@@ -141,3 +141,17 @@ color: #0298F9;
     background-clip: text;
     text-fill-color: transparent;
 }
+
+.underline {
+    padding-bottom: 4px;
+    position: relative;
+    text-decoration: none;
+}
+.underline::after{
+    background: linear-gradient(to right, transparent 0%, rgb(114, 114, 114) 50%, transparent 100%);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 400px;
+}
