@@ -2,23 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.about-ecell{
-    position: absolute;
-    height: 41px;
-    left: 960px;
-    right: 575px;
 
-    font-family: monospace;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 44px;
-    text-align: center;
-    text-transform: uppercase;
-
-    background: linear-gradient(180deg, #0298F9 0%, #086BEA 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+div[data-placeholder]:not([data-placeholder=""]):empty::before {
+  content: attr(data-placeholder);
 }

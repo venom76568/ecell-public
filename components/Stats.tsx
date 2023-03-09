@@ -6,7 +6,7 @@ const ibmPlex = IBM_Plex_Sans_Condensed({ weight: ["100", "200", "300", "400", "
 const Stats = () => {
   return (
     <div className="bg-gradient-to-b from-[rgb(2,157,249,1)] to-[rgba(8,107,234,1)] shadow-[0_12px_40px_rgba(0,0,0,0.25)]">
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center p-20 gap-8">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center py-20 gap-8">
         <div className="flex justify-evenly">
           <svg width="70" height="70" viewBox="0 0 107 104" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M99 17.2255H66V103.352H106.333V24.1156C106.333 22.2882 105.561 20.5357 104.185 19.2435C102.81 17.9514 100.945 17.2255 99 17.2255ZM80.6667 75.7918H73.3333V68.9016H80.6667V75.7918ZM80.6667 58.5664H73.3333V51.6762H80.6667V58.5664ZM80.6667 41.341H73.3333V34.4508H80.6667V41.341ZM95.3333 75.7918H88V68.9016H95.3333V75.7918ZM95.3333 58.5664H88V51.6762H95.3333V58.5664ZM95.3333 41.341H88V34.4508H95.3333V41.341Z" fill="white" />
