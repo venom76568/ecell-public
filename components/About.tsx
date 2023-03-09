@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import about from "../public/assets/about.png";
+import Link from "next/link";
 
 const About = () => {
     return (
@@ -23,9 +24,9 @@ const About = () => {
                                     Throughout the year, the E-Cell organizes expert talks, webinar, workshops, light skill development events as well as highly rewarding competitions, pitching scenarios and much more.
                                 </div>
                                 <div className="w-full flex gap-10 text-white text-xl justify-between p-4">
-                                    <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/3 py-4">Team</button>
-                                    <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/3 py-4">Glimpses</button>
-                                    <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/3 py-4">Contact Us</button>
+                                    <Link href="/team" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 py-4">Team</Link>
+                                    <Link href="/glimpses" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 py-4">Glimpses</Link>
+                                    <Link href="/#contact" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 py-4">Contact Us</Link>
                                 </div>
                             </div>
                         </div>

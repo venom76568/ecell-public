@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import NEO from "../public/assets/NEO.png";
 import CS from "../public/assets/CS.png";
+import Link from "next/link";
 
 const Initiatives = () => {
   return (
@@ -50,7 +51,7 @@ const Initiatives = () => {
                   interactions.
                 </p>
               </div>
-              <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/2 self-center py-4 mt-6 text-white">Know More</button>
+              <Link href="https://csuites.ecellvnit.org/" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/2 self-center py-4 mt-6 text-white">Know More</Link>
             </div>
           </div>
           <div className="flex flex-col items-center lg:items-start">
@@ -80,7 +81,7 @@ const Initiatives = () => {
                   National Entrepreneurship Olympiad is a PAN - India examination and a skill enhancement program for the students of class 7th to 12th grade to nurture and test their entrepreneurial skills. This Olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances...
                 </p>
               </div>
-              <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/2 self-center py-4 mt-6 text-white">Know More</button>
+              <Link href="https://neo.ecellvnit.org/" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/2 self-center py-4 mt-6 text-white">Know More</Link>
             </div>
           </div>
           <div></div>

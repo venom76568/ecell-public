@@ -11,6 +11,7 @@ import render from "../public/assets/render.png"
 import ipl from "../public/assets/ipl.png"
 import swades from "../public/assets/swades.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const Events = () => {
   return (
@@ -41,7 +42,7 @@ const Events = () => {
             <div className="flex flex-col justify-center gap-8">
 
               <span className="font-bold text-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase">Flagship</span>
-              <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/3 self-center py-4 text-white">Know More</button>
+              <Link href="https://www.ecellvnit.org/flagshipfinal/index.php" target="_blank" className="text-center bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/3 self-center py-4 text-white">Know More</Link>
             </div>
           </div>
           <div className="flex flex-col justify-center h-full gap-6">
@@ -55,7 +56,7 @@ const Events = () => {
             <div className="flex flex-col justify-center gap-8">
 
               <span className="font-bold text-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase">Startup Conclave</span>
-              <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/3 self-center py-4 text-white">Know More</button>
+              <Link href="https://startupconclave.ecellvnit.org/" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 self-center py-4 text-white">Know More</Link>
             </div>
           </div>
           <div className="flex flex-col justify-center h-full gap-6">
@@ -69,7 +70,7 @@ const Events = () => {
             <div className="flex flex-col justify-center gap-8">
 
               <span className="font-bold text-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase">Jugaad</span>
-              <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/3 self-center py-4 text-white">Know More</button>
+              <Link href="https://jugaad.ecellvnit.org/" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 self-center py-4 text-white">Know More</Link>
             </div>
           </div>
           <div className="flex flex-col justify-center h-full gap-6">
@@ -83,7 +84,7 @@ const Events = () => {
             <div className="flex flex-col justify-center gap-8">
 
               <span className="font-bold text-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase">Adventure</span>
-              <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/3 self-center py-4 text-white">Know More</button>
+              <Link href="https://consortium.ecellvnit.org/adventure" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 self-center py-4 text-white">Know More</Link>
             </div>
           </div>
           <div className="flex flex-col justify-center h-full gap-6">
@@ -97,7 +98,7 @@ const Events = () => {
             <div className="flex flex-col justify-center gap-8">
 
               <span className="font-bold text-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase">Wallstreet</span>
-              <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/3 self-center py-4 text-white">Know More</button>
+              <Link href="https://consortium.ecellvnit.org/wallstreet" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 self-center py-4 text-white">Know More</Link>
             </div>
           </div>
           <div className="flex flex-col justify-center h-full gap-6">
@@ -111,7 +112,7 @@ const Events = () => {
             <div className="flex flex-col justify-center gap-8">
 
               <span className="font-bold text-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase">CEO</span>
-              <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/3 self-center py-4 text-white">Know More</button>
+              <Link href="https://www.ecellvnit.org/ceo/ceo.php" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 self-center py-4 text-white">Know More</Link>
             </div>
           </div>
           <div className="flex flex-col justify-center h-full gap-6">
@@ -125,7 +126,7 @@ const Events = () => {
             <div className="flex flex-col justify-center gap-8">
 
               <span className="font-bold text-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase">Render.ico</span>
-              <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/3 self-center py-4 text-white">Know More</button>
+              <Link href="https://consortium.ecellvnit.org/render" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 self-center py-4 text-white">Know More</Link>
             </div>
           </div>
           <div className="flex flex-col justify-center h-full gap-6">
@@ -139,7 +140,7 @@ const Events = () => {
             <div className="flex flex-col justify-center gap-8">
 
               <span className="font-bold text-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase">IPL Auction</span>
-              <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/3 self-center py-4 text-white">Know More</button>
+              <Link href="https://www.ecellvnit.org/IPLEvents/index.php" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 self-center py-4 text-white">Know More</Link>
             </div>
           </div>
           <div className="flex flex-col justify-center h-full gap-6">
@@ -153,7 +154,7 @@ const Events = () => {
             <div className="flex flex-col justify-center gap-8">
 
               <span className="font-bold text-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase">Swades</span>
-              <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/3 self-center py-4 text-white">Know More</button>
+              <Link href="https://swades.ecellvnit.org/" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 self-center py-4 text-white">Know More</Link>
             </div>
           </div>
         </div>
