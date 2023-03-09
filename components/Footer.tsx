@@ -24,18 +24,18 @@ const Footer = () => {
               <div className="flex flex-col items-center lg:items-start gap-2">
                 <p className="font-medium text-xl uppercase">Quick Links</p>
                 <nav className="flex flex-col mt-4 space-y-2 items-start text-sm text-white">
-                  <a className="hover:opacity-75 uppercase" href="https://www.ecellvnit.org/#about">
+                  <Link className="hover:opacity-75 uppercase" href="https://startupconclave.ecellvnit.org/">
                     Startup Conclave
-                  </a>
-                  <a className="hover:opacity-75 uppercase" target="_blank" rel="noreferrer" href="https://www.ecellvnit.org/team.php">
+                  </Link>
+                  <Link className="hover:opacity-75 uppercase" target="_blank" rel="noreferrer" href="https://expo.ecellvnit.org/">
                     Startup Expo
-                  </a>
-                  <a className="hover:opacity-75 uppercase" target="_blank" rel="noreferrer" href="https://consortium.ecellvnit.org/">
+                  </Link>
+                  <Link className="hover:opacity-75 uppercase" target="_blank" rel="noreferrer" href="https://www.ecellvnit.org/merchandise/index.php">
                     Merchandise
-                  </a>
-                  <a className="hover:opacity-75 uppercase" target="_blank" rel="noreferrer" href="https://consortium.ecellvnit.org/events.php">
+                  </Link>
+                  <Link className="hover:opacity-75 uppercase" target="_blank" rel="noreferrer" href="https://neo.ecellvnit.org/">
                     NEO
-                  </a>
+                  </Link>
                 </nav>
               </div>
               <div className="flex flex-col items-center lg:items-start gap-2">
