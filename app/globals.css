@@ -3,6 +3,145 @@
 @tailwind utilities;
 
 
+.line1 {
+    position: absolute;
+    width: 756px;
+    height: 0px;
+    left: calc(50% - 756px/2 - 580px);
+    top: 697px;
+    mix-blend-mode: normal;
+}
+
+.line2 {
+    position: absolute;
+    width: 760px;
+    height: 0px;
+    left: calc(50% - 760px/2 + 580px);
+    top: 699px;
+
+    mix-blend-mode: normal;
+}
+
+.twitter{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 + 122px);
+    top: 685px;
+
+    /* background: #FFFFFF; */
+}
+
+.utube {
+    position: absolute;
+width: 32px;
+height: 22.55px;
+left: calc(50% - 32px/2 - 0px);
+top: 686px;
+}
+
+.linkedin{
+    position: absolute;
+width: 24px;
+height: 22.55px;
+left: calc(50% - 24px/2 - 63px);
+top: 686px;
+}
+
+.face {
+    position: absolute;
+width: 24px;
+height: 24px;
+left: calc(50% - 24px/2 + 63px);
+top: 685px;
+}
+
+.insta {
+    position: absolute;
+width: 24px;
+height: 22.55px;
+left: calc(50% - 24px/2 - 122px);
+top: 686px;
+}
+
+.explore{
+    position: absolute;
+width: 205px;
+height: 32px;
+left: 857px;
+top: 866px;
+
+font-family: 'serif';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 112%;
+/* or 40px */
+
+text-align: center;
+letter-spacing: 0.04em;
+
+color: #0298F9;
+}
+
+.about {
+    position: absolute;
+    height: 711px;
+    left: 50px;
+    right: 50px;
+    top: 1265px;
+
+    background: #1B1B1B;
+    box-shadow: 0px 8px 40px 2px rgba(255, 255, 255, 0.08);
+}
+
+/* .about-img {
+    position: absolute;
+    height: 711px;
+    left: 1300px;
+    right: -630px;
+    top: 1265px;
+
+    background: linear-gradient(90deg, #1B1B1B 21.8%, rgba(0, 0, 0, 0) 100%), url(IMG_0204.jpg);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+} */
+
+.about-ecell{
+    position: absolute;
+    height: 41px;
+    left: 960px;
+    right: 575px;
+
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #0298F9 0%, #086BEA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.underline {
+    padding-bottom: 4px;
+    position: relative;
+    text-decoration: none;
+}
+.underline::after{
+    background: linear-gradient(to right, transparent 0%, rgb(114, 114, 114) 50%, transparent 100%);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 400px;
+
+}
+
 div[data-placeholder]:not([data-placeholder=""]):empty::before {
   content: attr(data-placeholder);
 }
