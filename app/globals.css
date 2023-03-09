@@ -2,21 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.title {
-    position: absolute;
-    width: 1385px;
-    height: 334px;
-    left: 267px;
-    top: 241px;
-    font-family: monospace;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 120%;
-    /* or 115px */
-
-    text-align: center;
-}
 
 .line1 {
     position: absolute;
@@ -154,4 +139,9 @@ color: #0298F9;
     bottom: 0;
     height: 2px;
     width: 400px;
+
+}
+
+div[data-placeholder]:not([data-placeholder=""]):empty::before {
+  content: attr(data-placeholder);
 }
