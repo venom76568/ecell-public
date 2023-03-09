@@ -21,7 +21,7 @@ const navigation = [
 
 const Navbar = () => {
   return (
-    <Popover className="relative w-full">
+    <Popover className="relative w-full bg-black">
       <div className="px-6">
         <div className="flex items-center justify-between py-6 md:justify-start md:space-x-10">
           <div className="flex gap-4 justify-start">
@@ -49,7 +49,7 @@ const Navbar = () => {
             {navigation.map((item, idx) => (
               <a
                 key={idx}
-                className="text-xs md:text-lg lg:text-xl uppercase font-semibold text-white hover:text-gray-300"
+                className="text-xs lg:text-lg xl:text-xl uppercase font-semibold text-white hover:text-gray-300"
                 href={item.href}
               >
                 {item.name}

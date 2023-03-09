@@ -21,8 +21,8 @@ const Initiatives = () => {
             </defs>
           </svg>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 justify-evenly pt-20 gap-10">
-          <div className="flex flex-col items-end">
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-center lg:justify-evenly pt-20 gap-10">
+          <div className="flex flex-col items-center lg:items-end">
             <div className="">
               <Image
                 src={CS}
@@ -53,7 +53,7 @@ const Initiatives = () => {
               <button className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/2 self-center py-4 mt-6 text-white">Know More</button>
             </div>
           </div>
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-center lg:items-start">
             <div className="mt-2">
               <Image
                 src={NEO}

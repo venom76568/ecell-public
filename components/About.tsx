@@ -1,16 +1,17 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import about from "../public/assets/about.png";
 
 const About = () => {
     return (
-        <div id="about" className="bg-[#0C0C0C]">
+        <div id="about" className="mt-56 xl:mt-0 min-h-screen bg-[#0C0C0C]">
             <div className="min-h-screen bg-[url('/assets/back2.png')] bg-cover bg-no-repeat bg-blend-luminosity">
                 <div className="h-screen bg-gradient-to-b from-[rgba(0,0,0,1)] to-[rgba(12,12,12,0.8)] grid grid-cols-1 content-center bg-opacity-80">
                     <div className="px-10">
-                        <div className="grid grid-cols-2 bg-[#1B1B1B] shadow-[0_8px_40px_2px_rgba(255,255,255,0.08)]">
-                            <div className="bg-[url('/assets/about.png')] bg-left-bottom bg-cover">
-                                <div className="bg-gradient-to-r from-[#1B1B1B] to-[rgba(0,0,0,0)] translate-x-0 translate-y-0 -scale-x-100 scale-y-1 skew-x-0 skew-y-0">
-                                </div>
+                        <div className="grid grid-cols-1 lg:grid-cols-2 bg-[#1B1B1B] shadow-[0_8px_40px_2px_rgba(255,255,255,0.08)]">
+                            <div className="bg-gradient-to-r from-[#1B1B1B] to-[rgba(0,0,0,0)]">
+                                <Image src={about} alt="about" className="h-full" />
                             </div>
                             <div className="flex flex-col p-10 gap-10 justify-end h-full">
                                 <div className="uppercase text-2xl text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] font-bold">ABOUT E-CELL VNIT</div>

@@ -26,8 +26,8 @@ const Contact = () => {
                         </defs>
                     </svg>
                 </div>
-                <div className="h-full grid grid-cols-2 items-center justify-center gap-10 pt-10">
-                    <div className="flex flex-col items-end justify-start gap-10">
+                <div className="h-full grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-10 pt-10">
+                    <div className="flex flex-col items-center lg:items-end justify-start gap-10">
                         <div className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] p-[1px] w-1/2">
                             <input className="bg-black text-white w-full py-6 px-5" placeholder="Name" />
                         </div>
@@ -38,9 +38,9 @@ const Contact = () => {
                             <input className="bg-black text-white w-full py-6 px-5" placeholder="Phone" />
                         </div>
                     </div>
-                    <div className="mt-0 h-full">
+                    <div className="mt-0 h-full flex flex-col items-center lg:items-start">
                         <div className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] p-[1px] w-3/4 h-full">
-                            <textarea className="bg-black h-full text-white pt-2 px-5 resize-none w-full" placeholder="Message" />
+                            <textarea rows={12} className="bg-black h-full text-white pt-2 px-5 resize-none w-full" placeholder="Message" />
                         </div>
                     </div>
                 </div>

@@ -16,12 +16,12 @@ const Footer = () => {
                 alt="logo"
               />
             </div>
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 lg:col-span-3">
-              <div>
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4 lg:col-span-3">
+              <div className="flex flex-col items-center lg:items-start gap-2">
                 <p className="font-medium text-xl uppercase text-start">Consortium&apos;23</p>
-                <p className="text-start text-base mt-4">Consortium, the Annual Entrepreneurship Summit and Management Fest of VNIT, Nagpur</p>
+                <p className="text-start text-base mt-4 w-1/2 lg:w-full">Consortium, the Annual Entrepreneurship Summit and Management Fest of VNIT, Nagpur</p>
               </div>
-              <div className="flex flex-col items-start gap-2">
+              <div className="flex flex-col items-center lg:items-start gap-2">
                 <p className="font-medium text-xl uppercase">Quick Links</p>
                 <nav className="flex flex-col mt-4 space-y-2 items-start text-sm text-white">
                   <a className="hover:opacity-75 uppercase" href="https://www.ecellvnit.org/#about">
@@ -38,7 +38,7 @@ const Footer = () => {
                   </a>
                 </nav>
               </div>
-              <div>
+              <div className="flex flex-col items-center lg:items-start gap-2">
                 <p className="font-medium text-xl uppercase text-start">Contact Us</p>
                 <nav className="flex flex-col space-y-2 mt-4 text-start text-sm text-white">
                   <a className="hover:opacity-75" target="_blank" rel="noreferrer" href="mailto:contact@ecellvnit.org">
@@ -53,7 +53,7 @@ const Footer = () => {
                   </a>
                 </nav>
               </div>
-              <div className="flex flex-col items-start gap-2">
+              <div className="flex flex-col items-center lg:items-start gap-2">
                 <p className="font-medium text-xl uppercase">Follow Us</p>
                 <nav className="flex flex-col mt-4 space-y-3 items-start text-sm text-white">
                   <Link
@@ -85,7 +85,7 @@ const Footer = () => {
                     rel="noreferrer"
                   >
                     <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 15.0838C0 22.5413 5.41625 28.7425 12.5 30V19.1663H8.75V15H12.5V11.6663C12.5 7.91625 14.9163 5.83375 18.3337 5.83375C19.4163 5.83375 20.5837 6 21.6663 6.16625V10H19.75C17.9163 10 17.5 10.9163 17.5 12.0837V15H21.5L20.8337 19.1663H17.5V30C24.5837 28.7425 30 22.5425 30 15.0838C30 6.7875 23.25 0 15 0C6.75 0 0 6.7875 0 15.0838Z" fill="white" />
+                      <path fillRule="evenodd" clipRule="evenodd" d="M0 15.0838C0 22.5413 5.41625 28.7425 12.5 30V19.1663H8.75V15H12.5V11.6663C12.5 7.91625 14.9163 5.83375 18.3337 5.83375C19.4163 5.83375 20.5837 6 21.6663 6.16625V10H19.75C17.9163 10 17.5 10.9163 17.5 12.0837V15H21.5L20.8337 19.1663H17.5V30C24.5837 28.7425 30 22.5425 30 15.0838C30 6.7875 23.25 0 15 0C6.75 0 0 6.7875 0 15.0838Z" fill="white" />
                     </svg>
                     <span className="text-lg">Facebook</span>
                   </Link>

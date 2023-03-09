@@ -12,7 +12,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className={classNames("h-full w-full overflow-x-hidden bg-black", montserrat.className)}>{children}</body>
+      <body className={classNames("h-full w-full overflow-x-hidden", montserrat.className)}>{children}</body>
     </html>
   )
 }
