@@ -23,10 +23,10 @@ const About = () => {
                                     At the same time, it has been invoking a sense of responsibility towards the nation in students by empowering social startups as well.
                                     Throughout the year, the E-Cell organizes expert talks, webinar, workshops, light skill development events as well as highly rewarding competitions, pitching scenarios and much more.
                                 </div>
-                                <div className="w-full flex gap-10 text-white text-xl justify-between p-4">
-                                    <Link href="/team" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 py-4">Team</Link>
-                                    <Link href="/glimpses" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 py-4">Glimpses</Link>
-                                    <Link href="/#contact" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 py-4">Contact Us</Link>
+                                <div className="w-full flex gap-10 items-center justify-center text-white text-sm lg:text-xl lg:justify-between p-4 mb-10 lg:mb-0">
+                                    <Link href="/team" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 p-4">Team</Link>
+                                    <Link href="/glimpses" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 p-4">Glimpses</Link>
+                                    <Link href="/#contact" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/3 p-4">Contact</Link>
                                 </div>
                             </div>
                         </div>

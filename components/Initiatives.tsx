@@ -43,7 +43,7 @@ const Initiatives = () => {
                 </defs>
               </svg>
             </div>
-            <div className="h-full w-1/2 bg-[#161616] mt-8 p-8 flex flex-col justify-end">
+            <div className="h-full w-3/4 lg:w-1/2 bg-[#161616] mt-8 p-8 flex flex-col justify-end">
               <div>
                 <div className="font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA]">C-suites</div>
                 <p className="text-base mt-2 text-white">
@@ -51,7 +51,7 @@ const Initiatives = () => {
                   interactions.
                 </p>
               </div>
-              <Link href="https://csuites.ecellvnit.org/" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/2 self-center py-4 mt-6 text-white">Know More</Link>
+              <Link href="https://csuites.ecellvnit.org/" target="_blank" className="w-full bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center lg:w-1/2 self-center py-4 mt-6 text-white">Know More</Link>
             </div>
           </div>
           <div className="flex flex-col items-center lg:items-start">
@@ -74,14 +74,14 @@ const Initiatives = () => {
                 </defs>
               </svg>
             </div>
-            <div className="h-full w-1/2 bg-[#161616] mt-8 p-8 flex flex-col justify-center">
+            <div className="h-full w-3/4 lg:w-1/2 bg-[#161616] mt-8 p-8 flex flex-col justify-center">
               <div>
                 <h1 className="font-bold text-2xl uppercase text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA]">Neo</h1>
                 <p className="text-base mt-2 text-white">
                   National Entrepreneurship Olympiad is a PAN - India examination and a skill enhancement program for the students of class 7th to 12th grade to nurture and test their entrepreneurial skills. This Olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances...
                 </p>
               </div>
-              <Link href="https://neo.ecellvnit.org/" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/2 self-center py-4 mt-6 text-white">Know More</Link>
+              <Link href="https://neo.ecellvnit.org/" target="_blank" className="w-full bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center lg:w-1/2 self-center py-4 mt-6 text-white">Know More</Link>
             </div>
           </div>
           <div></div>

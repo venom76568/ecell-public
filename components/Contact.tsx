@@ -47,7 +47,7 @@ const Contact = () => {
     return (
         <div id="contact" className="h-full my-10 bg-[url('/assets/back4.png')] bg-blend-luminosity bg-no-repeat bg-left bg-cover">
             <div className="pb-10 bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.2)] flex flex-col">
-                <div className="flex flex-col gap-3 items-center justify-center text-5xl py-10 font-semibold">
+                <div className="flex flex-col gap-3 items-center justify-center text-4xl lg:text-5xl py-10 font-semibold">
                     <span className="uppercase text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA]">Connect with us</span>
                     <svg width="450" height="1" viewBox="0 0 580 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line y1="0.5" x2="580" y2="0.5" stroke="url(#paint0_linear_11_3)" />
