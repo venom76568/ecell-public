@@ -11,12 +11,12 @@ import ecellLogoBlack from "../public/assets/ecell-black-img.png";
 
 const navigation = [
   { name: "Home", href: "/#" },
-  { name: "About Us", href: "/#about" },
+  { name: "About", href: "/#about" },
   { name: "Initiatives", href: "/#initiatives" },
   { name: "Events", href: "/#events" },
   { name: "Team", href: "/team" },
   { name: "Sponsors", href: "/sponsors" },
-  { name: "Contact Us", href: "/#contact" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 const Navbar = () => {

@@ -5,7 +5,7 @@ const ibmPlex = IBM_Plex_Sans_Condensed({ weight: ["100", "200", "300", "400", "
 
 const Stats = () => {
   return (
-    <div className="mt-40 xl:mt-0 bg-gradient-to-b from-[rgb(2,157,249,1)] to-[rgba(8,107,234,1)] shadow-[0_12px_40px_rgba(0,0,0,0.25)]">
+    <div className="bg-gradient-to-b from-[rgb(2,157,249,1)] to-[rgba(8,107,234,1)] shadow-[0_12px_40px_rgba(0,0,0,0.25)]">
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center py-20 gap-8">
         <div className="flex justify-center gap-10 lg:justify-evenly">
           <svg width="70" height="70" viewBox="0 0 107 104" fill="none" xmlns="http://www.w3.org/2000/svg">

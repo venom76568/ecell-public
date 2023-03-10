@@ -13,8 +13,8 @@ const Landing = () => {
     return (
         <div className="min-h-screen bg-[url('/assets/BackgroundImage1.png')] bg-no-repeat bg-left bg-cover">
             <div className="h-screen bg-gradient-to-r from-[rgba(0,0,0,0.8)] to-[rgb(0,0,0,0.56)] bg-opacity-[0.2]">
-                <div className="h-full grid grid-rows-1 mlg:grid-rows-3 xl:grid-rows-6 items-center text-white">
-                    <div className="row-span-3 text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold px-4 space-y-4">
+                <div className="h-5/6 lg:h-full grid grid-rows-1 lg:grid-rows-3 xl:grid-rows-6 items-center text-white">
+                    <div className="row-span-3 text-center text-2xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl font-bold px-4 space-y-4">
                         <h1 className="text-white">THE</h1>
                         <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#086BEA] to-[#0298F9]">ENTREPRENEURSHIP CELL</h1>
                         <h1 className="text-white">VNIT NAGPUR</h1>
