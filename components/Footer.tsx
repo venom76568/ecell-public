@@ -17,12 +17,12 @@ const Footer = () => {
               />
             </div>
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4 lg:col-span-3">
-              <div className="flex flex-col items-center lg:items-start gap-2">
-                <p className="font-medium text-xl uppercase text-start">Consortium&apos;23</p>
+              <div className="flex flex-col flex-none items-center lg:items-start gap-2">
+                <p className="font-bold text-xl uppercase text-start">Consortium&apos;23</p>
                 <p className="text-start text-base mt-4 w-1/2 lg:w-full">Consortium, the Annual Entrepreneurship Summit and Management Fest of VNIT, Nagpur</p>
               </div>
-              <div className="flex flex-col items-center lg:items-start gap-2">
-                <p className="font-medium text-xl uppercase">Quick Links</p>
+              <div className="flex flex-col shrink items-center lg:items-start gap-2">
+                <p className="font-bold text-xl uppercase">Quick Links</p>
                 <nav className="flex flex-col mt-4 space-y-2 items-start text-sm text-white">
                   <Link className="hover:opacity-75 uppercase" href="https://startupconclave.ecellvnit.org/">
                     Startup Conclave
@@ -38,8 +38,8 @@ const Footer = () => {
                   </Link>
                 </nav>
               </div>
-              <div className="flex flex-col items-center lg:items-start gap-2">
-                <p className="font-medium text-xl uppercase text-start">Contact Us</p>
+              <div className="flex flex-col grow items-center lg:items-start gap-2">
+                <p className="font-bold text-xl uppercase text-start">Contact Us</p>
                 <nav className="flex flex-col space-y-2 mt-4 text-start text-sm text-white">
                   <a className="hover:opacity-75" target="_blank" rel="noreferrer" href="mailto:contact@ecellvnit.org">
                     For Public Affairs & Communications: <br />
@@ -54,7 +54,7 @@ const Footer = () => {
                 </nav>
               </div>
               <div className="flex flex-col items-center lg:items-start gap-2">
-                <p className="font-medium text-xl uppercase">Follow Us</p>
+                <p className="font-bold text-xl uppercase">Follow Us</p>
                 <nav className="flex flex-col mt-4 space-y-3 items-start text-sm text-white">
                   <Link
                     className="hover:opacity-75 flex justify-center gap-4"
@@ -116,7 +116,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <p className="font-medium text-xl uppercase">Visit us</p>
+            <p className="font-bold text-xl uppercase">Visit us</p>
             <p className="text-start text-base mt-4 w-1/3">E-Cell office, 1st Floor VNIT Canteen, Visvesvaraya National Institute Of Technology, South Ambazari Road, Abhyankar Nagar, Nagpur-440010</p>
             <p className="mt-8 text-md text-white">Copyright:
               <span className="text-[#0298F9]">

@@ -7,9 +7,9 @@ import Link from "next/link";
 
 const Initiatives = () => {
   return (
-    <div id="initiatives" className="min-h-screen mt-20 bg-[url('/assets/back.png')] bg-no-repeat bg-center bg-cover background-blend-luminosity">
+    <div id="initiatives" className="min-h-screen mt-20 bg-black bg-[url('/assets/back.png')] bg-no-repeat bg-center bg-cover bg-blend-luminosity">
       <div className="bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.2)]">
-        <div className="flex flex-col gap-3 items-center justify-center text-6xl font-semibold">
+        <div className="flex flex-col gap-3 items-center justify-center text-5xl xl:text-6xl font-semibold">
           <span className="uppercase text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA]">Initiatives</span>
           <svg width="450" height="1" viewBox="0 0 580 1" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="0.5" x2="580" y2="0.5" stroke="url(#paint0_linear_11_3)" />
@@ -22,7 +22,7 @@ const Initiatives = () => {
             </defs>
           </svg>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 justify-center lg:justify-evenly pt-20 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-center lg:justify-evenly pt-20 gap-10 space-x-5">
           <div className="flex flex-col items-center lg:items-end">
             <div className="">
               <Image
