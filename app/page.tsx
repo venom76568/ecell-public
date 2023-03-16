@@ -13,7 +13,7 @@ export default function Home() {
       <Navbar />
       <Landing />
       <About />
-      <div className='flex flex-col gap-10'>
+      <div className='flex flex-col gap-10 bg-black'>
         <Stats />
         <Initiatives />
         <Events />

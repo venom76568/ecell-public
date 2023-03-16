@@ -11,17 +11,17 @@ const raleway = Raleway({
 
 const Landing = () => {
     return (
-        <div className="min-h-screen bg-black bg-[url('/assets/BackgroundImage1.png')] bg-blend-luminosity bg-no-repeat bg-left bg-cover">
-            <div className="h-screen bg-gradient-to-b from-[rgba(0,0,0,0.8)] to-[rgb(0,0,0,0.56)] bg-opacity-[0.2]">
-                <div className="h-5/6 lg:h-full grid grid-rows-1 lg:grid-rows-3 xl:grid-rows-6 items-center text-white">
-                    <div className="row-span-3 text-center text-2xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl font-bold px-4 space-y-4">
+        <div className="max-h-full max-w-full bg-[#1C1C1C] bg-[url('/assets/BackgroundImage1.png')] bg-blend-luminosity bg-no-repeat bg-center bg-cover ">
+            <div className="h-screen bg-gradient-to-t from-[rgba(0,0,0,0.8)] to-[rgb(0,0,0,0.56)]">
+                <div className="h-5/6 lg:h-full grid grid-rows-1 lg:grid-rows-4 items-center text-white">
+                    <div className="row-span-2 text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold px-4 space-y-3 mt-10">
                         <h1 className="text-white">THE</h1>
                         <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#086BEA] to-[#0298F9]">ENTREPRENEURSHIP CELL</h1>
                         <h1 className="text-white">VNIT NAGPUR</h1>
                     </div>
-                    <div className="self-center flex flex-col lg:flex-row gap-8 w-full py-10 space-x-5">
-                        <div className="w-1/4 xl:w-2/5 bg-gradient-to-r from-[#0298F9] via-[#0482F1] to-[#086BEA] my-[13px] mix-blend-normal" />
-                        <div className="w-1/2 xl:w-1/5 flex gap-10 justify-center self-center lg:self-start">
+                    <div className="self-start flex flex-col lg:flex-row lg:items-center gap-8 w-full py-10 space-x-5">
+                        <div className="hidden lg:block w-1/4 xl:w-2/5 bg-gradient-to-r from-[#0298F9] via-[#0482F1] to-[#086BEA] h-[5px] mix-blend-normal" />
+                        <div className="-order-1 lg:order-[0] w-1/2 xl:w-1/5 flex gap-10 justify-center self-center lg:self-start">
                             <Link
                                 className="hover:opacity-75"
                                 href="https://www.instagram.com/ecellvnit/"
@@ -124,13 +124,11 @@ const Landing = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="w-1/4 xl:w-2/5 bg-gradient-to-r from-[#0298F9] via-[#0482F1] to-[#086BEA] my-[13px] mix-blend-normal" />
+                        <div className="hidden lg:block w-1/4 xl:w-2/5 bg-gradient-to-r items-center from-[#0298F9] via-[#0482F1] to-[#086BEA] h-[5px] mix-blend-normal" />
                     </div>
-                    <div className={classNames("self-center flex justify-center items-center font-bold", raleway.className)}>
-                        <div className="text-2xl text-center text-[#0298F9] bg-transparent border-2 border-gradient-b-primary p-1 uppercase tracking-widest leading-6">
-                            <div className="h-full w-full py-6 px-10">
-                                Explore
-                            </div>
+                    <div className={classNames("self-start flex justify-center items-center", raleway.className)}>
+                        <div className="text-3xl text-center font-black text-[#0298F9] bg-transparent border-4 border-gradient-b-primary px-16 py-8 uppercase tracking-widest leading-6">
+                            Explore
                         </div>
                     </div>
                 </div>

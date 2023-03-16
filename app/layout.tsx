@@ -1,7 +1,6 @@
 import './globals.css'
 
 import { Montserrat } from "next/font/google";
-import { classNames } from '@/components/utils/helper';
 const montserrat = Montserrat({ weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], subsets: ["latin"] });
 
 export default function RootLayout({
@@ -12,7 +11,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className={classNames("h-full w-full overflow-x-hidden", montserrat.className)}>{children}</body>
+      <body className={montserrat.className}>
+        <div className="flex flex-col-reverse md:flex-row md:h-screen relative overflow-x-hidden">
+          {children}
+        </div>
+      </body>
     </html>
   )
 }

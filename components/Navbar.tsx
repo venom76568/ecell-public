@@ -22,41 +22,39 @@ const navigation = [
 const Navbar = () => {
   return (
     <Popover className="relative w-full bg-black">
-      <div className="px-6">
-        <div className="flex items-center justify-between py-6 md:justify-start md:space-x-10">
-          <div className="flex gap-4 justify-start">
-            <a href="https://www.ecellvnit.org/">
-              <span className="sr-only">E-Cell VNIT</span>
-              <Image
-                height={150}
-                width={150}
-                priority
-                src={ecellLogoWhite}
-                alt="E-Cell VNIT"
-              />
-            </a>
-          </div>
-          <div className="-my-2 mr-2 md:hidden">
-            <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-              <span className="sr-only">Open menu</span>
-              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-            </Popover.Button>
-          </div>
-          <Popover.Group
-            as="nav"
-            className="w-full hidden space-x-10 md:flex md:justify-end pr-10"
-          >
-            {navigation.map((item, idx) => (
-              <a
-                key={idx}
-                className="text-xs lg:text-lg xl:text-xl uppercase font-semibold text-white hover:text-gray-300"
-                href={item.href}
-              >
-                {item.name}
-              </a>
-            ))}
-          </Popover.Group>
+      <div className="pl-10 flex items-center justify-between py-2 md:justify-start md:space-x-10">
+        <div className="flex gap-4 justify-start">
+          <a href="https://www.ecellvnit.org/">
+            <span className="sr-only">E-Cell VNIT</span>
+            <Image
+              height={150}
+              width={150}
+              priority
+              src={ecellLogoWhite}
+              alt="E-Cell VNIT"
+            />
+          </a>
         </div>
+        <div className="-my-2 mr-2 md:hidden">
+          <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <span className="sr-only">Open menu</span>
+            <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+          </Popover.Button>
+        </div>
+        <Popover.Group
+          as="nav"
+          className="w-full hidden space-x-10 md:flex md:justify-end pr-10"
+        >
+          {navigation.map((item, idx) => (
+            <a
+              key={idx}
+              className="text-xs lg:text-lg uppercase text-white hover:text-gray-300"
+              href={item.href}
+            >
+              {item.name}
+            </a>
+          ))}
+        </Popover.Group>
       </div>
 
       <Transition
@@ -101,7 +99,7 @@ const Navbar = () => {
                   {navigation.map((item, idx) => (
                     <a
                       key={idx}
-                      className="text-lg uppercase font-semibold text-gray-900 hover:text-gray-700"
+                      className="text-md uppercase text-gray-900 hover:text-gray-700"
                       href={item.href}
                     >
                       {item.name}
