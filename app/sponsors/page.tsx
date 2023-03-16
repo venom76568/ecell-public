@@ -35,111 +35,115 @@ import zebronics from "../../public/assets/sponsors/zebronics.png";
 
 const Sponsors = () => {
     return (
-        <>
+        <div>
             <Navbar />
             <div className="p-10">
                 <div className="flex justify-center items-center">
-                    <span className="uppercase text-transparent text-7xl font-bold bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA]">Our Sponsors</span>
+                    <span className="uppercase text-transparent text-5xl lg:text-6xl xl:text-7xl font-bold bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA]">Our Sponsors</span>
                 </div>
-                <div className="grid grid-cols-1 lg:grid-cols-3 items-center justify-center gap-10">
-                    <div className="flex justify-center items-center">
-                        <Image className="" src={zebronics} alt="zebronics" />
-                    </div>
-                    <div className="flex justify-center items-center ">
-                        <Image className="" src={unacademy} alt="unacademy" />
-                    </div>
-                    <div className="flex justify-center items-center ">
-                        <Image className="" src={akudo} alt="akudo" />
-                    </div>
-                    <div className="flex justify-center items-center">
-                        <Image className="" src={kawasaki} alt="kawasaki" />
-                    </div>
-                    <div className="flex justify-center items-center">
-                        <Image className="" src={coco_cola} alt="cocacola" />
-                    </div>
-                    <div className="flex justify-center items-center">
-                        <Image className="" src={radisson} alt="radisson blu" />
-                    </div>
-                    <div className="flex justify-center items-center">
-                        <Image className=" max-w-28" src={adobe} alt="adobe" />
-                    </div>
-                    <div className="flex justify-center items-center">
-                        <Image className="" src={air_india} alt="air india" />
-                    </div>
-                    <div className="flex justify-center items-center">
-                        <Image className="" src={central} alt="central" />
-                    </div>
-                    <div className="lg:col-span-3 flex flex-col lg:flex-row gap-10 lg:gap-6">
-                        <div className="flex justify-center items-center">
-                            <Image className="" src={ntpc} alt="ntpc" />
+                <div className="w-full h-full flex justify-center overflow-hidden">
+                    <div className="w-full max-w-8xl 2xl:max-w-[90%]">
+                        <div className="grid grid-cols-1 lg:grid-cols-3 items-center justify-center gap-10">
+                            <div className="flex justify-center items-center">
+                                <Image className="" src={zebronics} alt="zebronics" />
+                            </div>
+                            <div className="flex justify-center items-center ">
+                                <Image className="" src={unacademy} alt="unacademy" />
+                            </div>
+                            <div className="flex justify-center items-center ">
+                                <Image className="" src={akudo} alt="akudo" />
+                            </div>
+                            <div className="flex justify-center items-center">
+                                <Image className="" src={kawasaki} alt="kawasaki" />
+                            </div>
+                            <div className="flex justify-center items-center">
+                                <Image className="" src={coco_cola} alt="cocacola" />
+                            </div>
+                            <div className="flex justify-center items-center">
+                                <Image className="" src={radisson} alt="radisson blu" />
+                            </div>
+                            <div className="flex justify-center items-center">
+                                <Image className=" max-w-28" src={adobe} alt="adobe" />
+                            </div>
+                            <div className="flex justify-center items-center">
+                                <Image className="" src={air_india} alt="air india" />
+                            </div>
+                            <div className="flex justify-center items-center">
+                                <Image className="" src={central} alt="central" />
+                            </div>
+                            <div className="lg:col-span-3 flex flex-col lg:flex-row gap-10 lg:gap-6">
+                                <div className="flex justify-center items-center">
+                                    <Image className="" src={ntpc} alt="ntpc" />
+                                </div>
+                                <div className="flex justify-center items-center ">
+                                    <Image className="" src={coal_india} alt="coal india" />
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <Image className="" src={moil} alt="moil" />
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <Image className="" src={sidbi} alt="sidbi" />
+                                </div>
+                            </div>
+                            <div className="lg:col-span-3 flex flex-col lg:flex-row gap-10 lg:gap-6">
+                                <div className="flex justify-center items-center">
+                                    <Image className="" src={canara} alt="canara" width={1000} />
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <Image className="" src={sbi} alt="sbi" />
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <Image className="" src={bsnl} alt="bsnl" />
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <Image className="" src={insurance} alt="national insurance" />
+                                </div>
+                            </div>
+                            <div className="lg:col-span-3 flex flex-col lg:flex-row gap-10 lg:gap-6">
+                                <div className="flex justify-center items-center">
+                                    <Image className="" src={oyo} alt="oyo" />
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <Image className="" src={lenskart} alt="lenskart" />
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <Image className="" src={itc} alt="itc" />
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <Image className="" src={ola} alt="ola" />
+                                </div>
+                            </div>
+                            <div className="lg:col-span-3 flex flex-col lg:flex-row gap-10 lg:gap-6">
+                                <div className="flex justify-center items-center">
+                                    <Image className="" src={hp} alt="hp" width={200} />
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <Image className="" src={uber} alt="uber" width={350} />
+                                </div>
+                                <div className="flex justify-center items-center ">
+                                    <Image className="" src={iball} alt="iball" width={200} />
+                                </div>
+                                <div className="flex justify-center items-center ">
+                                    <Image className="" src={ccd} alt="ccd" width={200} />
+                                </div>
+                                <div className="flex justify-center items-center scale">
+                                    <Image className="" src={dhl} alt="dhl" width={400} />
+                                </div>
+                            </div>
+                            <div className="flex justify-center items-center scale">
+                                <Image className="" src={astrail} alt="astrail" />
+                            </div>
+                            <div className="flex justify-center items-center scale">
+                                <Image className="" src={rc} alt="radio city" />
+                            </div>
                         </div>
-                        <div className="flex justify-center items-center ">
-                            <Image className="" src={coal_india} alt="coal india" />
-                        </div>
-                        <div className="flex justify-center items-center">
-                            <Image className="" src={moil} alt="moil" />
-                        </div>
-                        <div className="flex justify-center items-center">
-                            <Image className="" src={sidbi} alt="sidbi" />
-                        </div>
-                    </div>
-                    <div className="lg:col-span-3 flex flex-col lg:flex-row gap-10 lg:gap-6">
-                        <div className="flex justify-center items-center">
-                            <Image className="" src={canara} alt="canara" width={1000} />
-                        </div>
-                        <div className="flex justify-center items-center">
-                            <Image className="" src={sbi} alt="sbi" />
-                        </div>
-                        <div className="flex justify-center items-center">
-                            <Image className="" src={bsnl} alt="bsnl" />
-                        </div>
-                        <div className="flex justify-center items-center">
-                            <Image className="" src={insurance} alt="national insurance" />
-                        </div>
-                    </div>
-                    <div className="lg:col-span-3 flex flex-col lg:flex-row gap-10 lg:gap-6">
-                        <div className="flex justify-center items-center">
-                            <Image className="" src={oyo} alt="oyo" />
-                        </div>
-                        <div className="flex justify-center items-center">
-                            <Image className="" src={lenskart} alt="lenskart" />
-                        </div>
-                        <div className="flex justify-center items-center">
-                            <Image className="" src={itc} alt="itc" />
-                        </div>
-                        <div className="flex justify-center items-center">
-                            <Image className="" src={ola} alt="ola" />
-                        </div>
-                    </div>
-                    <div className="lg:col-span-3 flex flex-col lg:flex-row gap-10 lg:gap-6">
-                        <div className="flex justify-center items-center">
-                            <Image className="" src={hp} alt="hp" width={400} />
-                        </div>
-                        <div className="flex justify-center items-center">
-                            <Image className="" src={uber} alt="uber" width={500} />
-                        </div>
-                        <div className="flex justify-center items-center ">
-                            <Image className="" src={iball} alt="iball" />
-                        </div>
-                        <div className="flex justify-center items-center ">
-                            <Image className="" src={ccd} alt="ccd" />
-                        </div>
-                    </div>
-                    <div className="flex justify-center items-center ">
-                        <Image className="" src={dhl} alt="dhl" />
-                    </div>
-                    <div className="flex justify-center items-center ">
-                        <Image className="" src={astrail} alt="astrail" />
-                    </div>
-                    <div className="flex justify-center items-center ">
-                        <Image className="" src={rc} alt="radio city" />
                     </div>
                 </div>
             </div>
             <div className="pt-10 bg-black">
                 <Footer />
             </div>
-        </>
+        </div>
     );
 }
 
