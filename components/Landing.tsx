@@ -2,13 +2,6 @@
 import React from "react";
 import Link from "next/link";
 
-import { Raleway } from "next/font/google";
-import { classNames } from "./utils/helper";
-const raleway = Raleway({
-    weight: "400",
-    subsets: ["latin"],
-})
-
 const Landing = () => {
     return (
         <div className="max-h-full max-w-full bg-[#1C1C1C] bg-[url('/assets/BackgroundImage1.png')] bg-blend-luminosity bg-no-repeat bg-center bg-cover ">
@@ -126,8 +119,8 @@ const Landing = () => {
                         </div>
                         <div className="hidden lg:block w-1/4 xl:w-2/5 bg-gradient-to-r items-center from-[#0298F9] via-[#0482F1] to-[#086BEA] h-[5px] mix-blend-normal" />
                     </div>
-                    <div className={classNames("self-start flex justify-center items-center", raleway.className)}>
-                        <div className="text-3xl text-center font-black text-[#0298F9] bg-transparent border-4 border-gradient-b-primary px-16 py-8 uppercase tracking-widest leading-6">
+                    <div className="self-start flex justify-center items-center">
+                        <div className="text-3xl scale-75 text-center font-bold text-[#0298F9] bg-transparent border-[3px] border-gradient-b-primary px-16 py-8 uppercase tracking-widest leading-6">
                             Explore
                         </div>
                     </div>

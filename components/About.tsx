@@ -21,7 +21,7 @@ const About = () => {
                             <div className="w-full flex flex-col sm:flex-row gap-10 items-center justify-center text-white text-sm lg:text-xl lg:justify-between">
                                 <Link href="/team" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] hover:from-[#0a6eb6] hover:to-[#086BEB] uppercase text-center w-full md:w-1/3 py-4">Team</Link>
                                 <Link href="/glimpses" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] hover:from-[#0a6eb6] hover:to-[#086BEB] uppercase text-center w-full md:w-1/3 py-4">Glimpses</Link>
-                                <Link href="/#contact" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] hover:from-[#0a6eb6x] hover:to-[#086BEB] uppercase text-center w-full md:w-1/3 py-4">Contact</Link>
+                                <Link href="/#contact" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] hover:from-[#0a6eb6] hover:to-[#086BEB] uppercase text-center w-full md:w-1/3 py-4">Contact</Link>
                             </div>
                         </div>
                     </div>

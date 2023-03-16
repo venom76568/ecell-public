@@ -118,7 +118,7 @@ const Footer = () => {
           <div className="flex flex-col justify-center items-center">
             <p className="font-bold text-xl uppercase">Visit us</p>
             <p className="text-start text-base mt-4 w-1/3">E-Cell office, 1st Floor VNIT Canteen, Visvesvaraya National Institute Of Technology, South Ambazari Road, Abhyankar Nagar, Nagpur-440010</p>
-            <p className="mt-8 text-md text-white">Copyright:
+            <p className="mt-8 text-2xl text-white">Copyright:
               <span className="text-[#0298F9]">
                 { } E-CELL VNIT
               </span>
