@@ -6,15 +6,15 @@ const Landing = () => {
     return (
         <div className="max-h-full max-w-full bg-[#1C1C1C] bg-[url('/assets/BackgroundImage1.png')] bg-blend-luminosity bg-no-repeat bg-center bg-cover ">
             <div className="h-screen bg-gradient-to-t from-[rgba(0,0,0,0.8)] to-[rgb(0,0,0,0.56)]">
-                <div className="h-5/6 lg:h-full grid grid-rows-1 lg:grid-rows-4 items-center text-white">
-                    <div className="row-span-2 text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold px-4 space-y-3 mt-10">
-                        <h1 className="text-white">THE</h1>
-                        <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#086BEA] to-[#0298F9]">ENTREPRENEURSHIP CELL</h1>
-                        <h1 className="text-white">VNIT NAGPUR</h1>
+                <div className="h-[90%] w-full lg:h-full grid grid-rows-5 md:grid-rows-4 items-center text-white p-4">
+                    <div className="row-span-3 lg:row-span-2 text-start sm:text-center text-2xl xxs:text-3xl xs:text-4xl sm:text-5xl lg:text-7xl xl:text-8xl font-bold px-4 space-y-3 mt-10 flex flex-col">
+                        <span className="text-white">THE</span>
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#086BEA] to-[#0298F9]">ENTREPRENEURSHIP CELL</span>
+                        <span className="text-white">VNIT NAGPUR</span>
                     </div>
-                    <div className="self-start flex flex-col lg:flex-row lg:items-center gap-8 w-full py-10 space-x-5">
-                        <div className="hidden lg:block w-1/4 xl:w-2/5 bg-gradient-to-r from-[#0298F9] via-[#0482F1] to-[#086BEA] h-[5px] mix-blend-normal" />
-                        <div className="-order-1 lg:order-[0] w-1/2 xl:w-1/5 flex gap-10 justify-center self-center lg:self-start">
+                    <div className="self-start flex flex-row items-center gap-6 lg:gap-8 w-full py-10 space-x-5">
+                        <div className="w-1/3 md:w-1/4 xl:w-2/5 bg-gradient-to-r from-[#0298F9] via-[#0482F1] to-[#086BEA] h-[5px] mix-blend-normal" />
+                        <div className="w-1/3 md:w-1/2 xl:w-1/5 flex gap-6 lg:gap-10 justify-center self-center lg:self-start">
                             <Link
                                 className="hover:opacity-75"
                                 href="https://www.instagram.com/ecellvnit/"
@@ -23,7 +23,7 @@ const Landing = () => {
                             >
                                 <span className="sr-only"> Instagram </span>
                                 <svg
-                                    className="w-8 h-8"
+                                    className="h-5 w-5 xs:h-6 xs:w-6 sm:w-7 sm:h-7 md:h-8 md:w-8"
                                     fill="white"
                                     viewBox="0 0 24 24"
                                     aria-hidden="true"
@@ -43,7 +43,7 @@ const Landing = () => {
                             >
                                 <span className="sr-only"> LinkedIn </span>
                                 <svg
-                                    className="w-8 h-8"
+                                    className="h-5 w-5 xs:h-6 xs:w-6 sm:w-7 sm:h-7 md:h-8 md:w-8"
                                     fill="white"
                                     viewBox="0 0 24 24"
                                     aria-hidden="true"
@@ -68,7 +68,7 @@ const Landing = () => {
                             >
                                 <span className="sr-only">YouTube</span>
                                 <svg
-                                    className="w-8 h-8"
+                                    className="h-5 w-5 xs:h-6 xs:w-6 sm:w-7 sm:h-7 md:h-8 md:w-8"
                                     fill="white"
                                     viewBox="0 0 16 16"
                                     aria-hidden="true"
@@ -88,7 +88,7 @@ const Landing = () => {
                             >
                                 <span className="sr-only"> Facebook </span>
                                 <svg
-                                    className="w-8 h-8"
+                                    className="h-5 w-5 xs:h-6 xs:w-6 sm:w-7 sm:h-7 md:h-8 md:w-8"
                                     fill="white"
                                     viewBox="0 0 24 24"
                                     aria-hidden="true"
@@ -108,7 +108,7 @@ const Landing = () => {
                             >
                                 <span className="sr-only"> Twitter </span>
                                 <svg
-                                    className="w-8 h-8"
+                                    className="h-5 w-5 xs:h-6 xs:w-6 sm:w-7 sm:h-7 md:h-8 md:w-8"
                                     fill="white"
                                     viewBox="0 0 24 24"
                                     aria-hidden="true"
@@ -117,9 +117,9 @@ const Landing = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="hidden lg:block w-1/4 xl:w-2/5 bg-gradient-to-r items-center from-[#0298F9] via-[#0482F1] to-[#086BEA] h-[5px] mix-blend-normal" />
+                        <div className="w-1/3 md:w-1/4 xl:w-2/5 bg-gradient-to-r items-center from-[#0298F9] via-[#0482F1] to-[#086BEA] h-[5px] mix-blend-normal" />
                     </div>
-                    <div className="self-start flex justify-center items-center">
+                    <div className="row-span-2 lg:row-span-1 self-start flex justify-center items-center">
                         <div className="text-3xl scale-75 text-center font-bold text-[#0298F9] bg-transparent border-[3px] border-gradient-b-primary px-16 py-8 uppercase tracking-widest leading-6">
                             Explore
                         </div>

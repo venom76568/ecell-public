@@ -19,11 +19,11 @@ const Footer = () => {
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4 lg:col-span-3">
               <div className="flex flex-col flex-none items-center lg:items-start gap-2">
                 <p className="font-bold text-xl uppercase text-start">Consortium&apos;23</p>
-                <p className="text-start text-base mt-4 w-1/2 lg:w-full">Consortium, the Annual Entrepreneurship Summit and Management Fest of VNIT, Nagpur</p>
+                <p className="text-center lg:text-start text-base mt-4 w-1/2 lg:w-full">Consortium, the Annual Entrepreneurship Summit and Management Fest of VNIT, Nagpur</p>
               </div>
               <div className="flex flex-col shrink items-center lg:items-start gap-2">
-                <p className="font-bold text-xl uppercase">Quick Links</p>
-                <nav className="flex flex-col mt-4 space-y-2 items-start text-sm text-white">
+                <p className="font-bold text-xl uppercase text-start">Quick Links</p>
+                <nav className="flex flex-col mt-4 space-y-2 items-center lg:items-start text-sm text-white">
                   <Link className="hover:opacity-75 uppercase" href="https://startupconclave.ecellvnit.org/">
                     Startup Conclave
                   </Link>
@@ -115,9 +115,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center pt-10">
             <p className="font-bold text-xl uppercase">Visit us</p>
-            <p className="text-start text-base mt-4 w-1/3">E-Cell office, 1st Floor VNIT Canteen, Visvesvaraya National Institute Of Technology, South Ambazari Road, Abhyankar Nagar, Nagpur-440010</p>
+            <p className="text-center lg:text-start text-base mt-4 w-full lg:w-1/3">E-Cell office, 1st Floor VNIT Canteen, Visvesvaraya National Institute Of Technology, South Ambazari Road, Abhyankar Nagar, Nagpur-440010</p>
             <p className="mt-8 text-2xl text-white">Copyright:
               <span className="text-[#0298F9]">
                 { } E-CELL VNIT

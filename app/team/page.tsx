@@ -68,7 +68,7 @@ const Team = () => {
                                                     <Image
                                                         src={bhatt_sir}
                                                         alt="Bhat"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -88,7 +88,7 @@ const Team = () => {
                                                     <Image
                                                         src={taiwade_sir}
                                                         alt="Taiwade"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -107,7 +107,7 @@ const Team = () => {
                                                     <Image
                                                         src={karthik_sir}
                                                         alt="Karthik"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -146,7 +146,7 @@ const Team = () => {
                                                     <Image
                                                         src={bhargav}
                                                         alt="Bhargav"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -182,7 +182,7 @@ const Team = () => {
                                                     <Image
                                                         src={rajat}
                                                         alt="Rajat"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -218,7 +218,7 @@ const Team = () => {
                                                     <Image
                                                         src={balpande}
                                                         alt="Balpande"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -254,7 +254,7 @@ const Team = () => {
                                                     <Image
                                                         src={kaabra}
                                                         alt="Kabbra"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -290,7 +290,7 @@ const Team = () => {
                                                     <Image
                                                         src={kench}
                                                         alt="Kench"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -326,7 +326,7 @@ const Team = () => {
                                                     <Image
                                                         src={khanwani}
                                                         alt="Khanwani"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -362,7 +362,7 @@ const Team = () => {
                                                     <Image
                                                         src={akanksha}
                                                         alt="Akanksha"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -398,7 +398,7 @@ const Team = () => {
                                                     <Image
                                                         src={rohit}
                                                         alt="Rohit"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -434,7 +434,7 @@ const Team = () => {
                                                     <Image
                                                         src={dweeja}
                                                         alt="Dweeja"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -470,7 +470,7 @@ const Team = () => {
                                                     <Image
                                                         src={abhiuday}
                                                         alt="Abhiuday"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -506,7 +506,7 @@ const Team = () => {
                                                     <Image
                                                         src={tanmay}
                                                         alt="Tanmay"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -542,7 +542,7 @@ const Team = () => {
                                                     <Image
                                                         src={tanishqa}
                                                         alt="Tanishqa"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -578,7 +578,7 @@ const Team = () => {
                                                     <Image
                                                         src={priyanshu}
                                                         alt="Priyanshu"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -614,7 +614,7 @@ const Team = () => {
                                                     <Image
                                                         src={mitali}
                                                         alt="Mitali"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -650,7 +650,7 @@ const Team = () => {
                                                     <Image
                                                         src={borkute}
                                                         alt="Borkute"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>
@@ -687,7 +687,7 @@ const Team = () => {
                                                     <Image
                                                         src={kushagra}
                                                         alt="Kushagra"
-                                                        className="p-1 scale-[1.38] w-full"
+                                                        className="p-1 md:scale-[1.38] w-full"
                                                     />
                                                 </div>
                                             </div>

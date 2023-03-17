@@ -32,7 +32,7 @@ const Initiatives = () => {
                 height={77}
                 className="ml-28"
               />
-              <svg width="400" height="1" viewBox="0 0 500 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg className="mr-12" width="400" height="1" viewBox="0 0 500 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <line y1="0.5" x2="604" y2="0.5" stroke="url(#paint0_linear_28_8)" />
                 <defs>
                   <linearGradient id="paint0_linear_28_8" x1="500.362" y1="1" x2="50.6017" y2="1" gradientUnits="userSpaceOnUse">
@@ -43,7 +43,7 @@ const Initiatives = () => {
                 </defs>
               </svg>
             </div>
-            <div className="h-full w-3/4 lg:w-1/2 bg-[#161616] mt-8 p-8 flex flex-col justify-end">
+            <div className="h-full w-3/4 lg:w-1/2 bg-[#161616] ml-6 lg:ml-0 mt-8 p-8 flex flex-col lg:justify-end">
               <div>
                 <div className="uppercase font-bold text-3xl text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA]">C-suites</div>
                 <p className="text-base mt-2 text-white">
@@ -61,9 +61,9 @@ const Initiatives = () => {
                 alt="My Image"
                 width={200}
                 height={77}
-                className="ml-20"
+                className="ml-24 lg:ml-20"
               />
-              <svg width="380" height="1" viewBox="0 0 500 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg className="mr-12" width="380" height="1" viewBox="0 0 500 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <line y1="0.5" x2="454" y2="0.5" stroke="url(#paint0_linear_28_8)" />
                 <defs>
                   <linearGradient id="paint0_linear_28_8" x1="330.362" y1="1" x2="-100.6017" y2="1" gradientUnits="userSpaceOnUse">

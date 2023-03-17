@@ -38,7 +38,7 @@ const Events = () => {
                 width={200}
                 height={100}
                 alt="Flagship"
-                className="self-center scale-75"
+                className="self-center lg:scale-75"
               />
               <div className="flex flex-col justify-center gap-8">
 
@@ -66,7 +66,7 @@ const Events = () => {
                 width={200}
                 height={100}
                 alt="Jugaad"
-                className="self-center scale-90"
+                className="self-center lg:scale-90"
               />
               <div className="flex flex-col justify-center gap-8">
 
@@ -80,7 +80,7 @@ const Events = () => {
                 width={340}
                 height={100}
                 alt="Adventure"
-                className="self-center scale-[0.6] mt-10"
+                className="self-center scale-90 lg:scale-[0.6] mt-10"
               />
               <div className="flex flex-col justify-start gap-8">
                 <span className="font-bold text-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase">Adventure</span>
@@ -93,7 +93,7 @@ const Events = () => {
                 width={340}
                 height={100}
                 alt="Wallstreet"
-                className="self-center scale-75"
+                className="self-center scale-90 lg:scale-75"
               />
               <div className="flex flex-col justify-center gap-8">
 
@@ -107,7 +107,7 @@ const Events = () => {
                 width={340}
                 height={100}
                 alt="CEO"
-                className="self-center scale-50"
+                className="self-center scale-[0.6] lg:scale-50"
               />
               <div className="flex flex-col justify-center gap-8">
 
@@ -121,7 +121,7 @@ const Events = () => {
                 width={320}
                 height={100}
                 alt="Render.ico"
-                className="self-center scale-90"
+                className="self-center lg:scale-90"
               />
               <div className="flex flex-col justify-center gap-8">
 
@@ -134,7 +134,7 @@ const Events = () => {
                 src={ipl}
                 width={230}
                 alt="IPL Auction"
-                className="self-center scale-[0.7]"
+                className="self-center lg:scale-[0.7]"
               />
               <div className="flex flex-col justify-center gap-8">
 
@@ -148,7 +148,7 @@ const Events = () => {
                 width={230}
                 height={100}
                 alt="Swades"
-                className="self-center scale-90"
+                className="self-center lg:scale-90"
               />
               <div className="flex flex-col justify-center gap-8">
 
