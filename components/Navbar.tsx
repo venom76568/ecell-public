@@ -46,14 +46,13 @@ const Navbar = () => {
           className="w-full hidden space-x-10 md:flex md:justify-end pr-10"
         >
           {navigation.map((item, idx) => (
-            <Popover.Button
-              as="a"
+            <a
               key={idx}
               className="text-xs lg:text-lg uppercase text-white hover:text-gray-300"
               href={item.href}
             >
               {item.name}
-            </Popover.Button>
+            </a>
           ))}
         </Popover.Group>
       </div>

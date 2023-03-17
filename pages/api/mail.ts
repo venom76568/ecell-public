@@ -10,13 +10,13 @@ const handler = async (
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) => {
-  if (!process.env.MAIL_HOST || !process.env.MAIL_PORT || !process.env.MAIL_USER || !process.env.MAIL_PASS) {
+  if (!process.env.MAIL_USER || !process.env.MAIL_PASS) {
     console.log("Please set the environment variables");
     return;
   }
   const transporter = createTransport({
-    host: process.env.MAIL_HOST,
-    port: process.env.MAIL_PORT,
+    host: "sharedlinux.cloudhostdns.net",
+    port: 465,
     secure: true,
     auth: {
       user: process.env.MAIL_USER,
