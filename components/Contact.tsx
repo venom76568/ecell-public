@@ -17,6 +17,8 @@ const initForm: IForm = {
   message: ""
 }
 
+const delay = (ms: number) => new Promise(res => setTimeout(res, ms));
+
 const Contact = () => {
   const router = useRouter();
   const [form, setForm] = React.useState<IForm>(initForm);
@@ -37,27 +39,43 @@ const Contact = () => {
         },
         body: JSON.stringify(form)
       });
+
       if (res.status === 200) {
         toast.success("Message sent successfully", {
-          position: "top-center",
+          position: "top-right",
           autoClose: 3000,
-          hideProgressBar: true,
+          hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
           draggable: true,
           progress: undefined,
+          theme: "colored"
         });
         setForm(initForm);
+        await delay(1500);
+        router.push("/");
+      } else {
+        toast.error("Something went wrong! Please try again later", {
+          position: "top-right",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored"
+        });
       }
     } else {
       toast.error("Please fill all the fields", {
-        position: "top-center",
+        position: "top-right",
         autoClose: 3000,
-        hideProgressBar: true,
+        hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
+        theme: "colored"
       });
     }
   }

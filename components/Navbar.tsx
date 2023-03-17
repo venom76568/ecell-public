@@ -46,13 +46,14 @@ const Navbar = () => {
           className="w-full hidden space-x-10 md:flex md:justify-end pr-10"
         >
           {navigation.map((item, idx) => (
-            <a
+            <Popover.Button
+              as="a"
               key={idx}
               className="text-xs lg:text-lg uppercase text-white hover:text-gray-300"
               href={item.href}
             >
               {item.name}
-            </a>
+            </Popover.Button>
           ))}
         </Popover.Group>
       </div>
@@ -66,9 +67,7 @@ const Navbar = () => {
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-0 scale-95"
       >
-        <Popover.Panel
-          focus
-          className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"
+        <Popover.Panel className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"
         >
           <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
             <div className="px-5 pt-5 pb-6">
@@ -97,13 +96,14 @@ const Navbar = () => {
               <div className="mt-6">
                 <nav className="grid gap-y-8">
                   {navigation.map((item, idx) => (
-                    <a
+                    <Popover.Button
+                      as="a"
                       key={idx}
                       className="text-md uppercase text-gray-900 hover:text-gray-700"
                       href={item.href}
                     >
                       {item.name}
-                    </a>
+                    </Popover.Button>
                   ))}
                 </nav>
               </div>
