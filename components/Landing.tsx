@@ -4,10 +4,10 @@ import Link from "next/link";
 
 const Landing = () => {
     return (
-        <div className="max-h-full max-w-full bg-[#1C1C1C] bg-[url('/assets/BackgroundImage1.png')] bg-blend-luminosity bg-no-repeat bg-center bg-cover ">
+        <div className="min-h-screen max-w-full bg-[#1C1C1C] bg-[url('/assets/BackgroundImage1.png')] bg-blend-luminosity bg-no-repeat bg-center bg-cover ">
             <div className="h-screen bg-gradient-to-t from-[rgba(0,0,0,0.8)] to-[rgb(0,0,0,0.56)]">
                 <div className="h-[90%] w-full lg:h-full grid grid-rows-5 md:grid-rows-4 items-center text-white p-4">
-                    <div className="row-span-3 lg:row-span-2 text-start sm:text-center text-2xl xxs:text-3xl xs:text-4xl sm:text-5xl lg:text-7xl xl:text-8xl font-bold px-4 space-y-3 mt-10 flex flex-col">
+                    <div className="row-span-3 lg:row-span-2 text-start sm:text-center text-3xl xs:text-4xl sm:text-5xl lg:text-7xl xl:text-8xl font-bold px-4 space-y-3 mt-10 flex flex-col">
                         <span className="text-white">THE</span>
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#086BEA] to-[#0298F9]">ENTREPRENEURSHIP CELL</span>
                         <span className="text-white">VNIT NAGPUR</span>

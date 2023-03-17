@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <div className='bg-black'>
       <Navbar />
-      <Landing />
-      <About />
       <div className='flex flex-col gap-10 bg-black'>
+        <Landing />
+        <About />
         <Stats />
         <Initiatives />
         <Events />

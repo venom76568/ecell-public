@@ -22,7 +22,7 @@ const Initiatives = () => {
             </defs>
           </svg>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 justify-center lg:justify-evenly pt-20 gap-20 space-x-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-center lg:justify-evenly pt-20 gap-20 space-x-5">
           <div className="flex flex-col items-center lg:items-end">
             <div className="">
               <Image
@@ -43,10 +43,10 @@ const Initiatives = () => {
                 </defs>
               </svg>
             </div>
-            <div className="h-full w-3/4 lg:w-1/2 bg-[#161616] ml-6 lg:ml-0 mt-8 p-8 flex flex-col lg:justify-end">
+            <div className="h-full lg:h-fit w-3/4 xl:w-1/2 bg-[#161616] ml-6 lg:ml-0 mt-8 p-8 flex flex-col xl:justify-end">
               <div>
                 <div className="uppercase font-bold text-3xl text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA]">C-suites</div>
-                <p className="text-base mt-2 text-white">
+                <p className="text-sm xl:text-base mt-2 text-white">
                   C-Suites is a community of like-minded people within VNIT Nagpur where we grow ourselves individually along with people around us. The mission seeks to create a self-sustained ecosystem, where peers discuss and learn from each other through regular group
                   interactions.
                 </p>
@@ -74,10 +74,10 @@ const Initiatives = () => {
                 </defs>
               </svg>
             </div>
-            <div className="h-full w-3/4 lg:w-1/2 bg-[#161616] mt-8 p-8 flex flex-col justify-center">
+            <div className="h-full lg:h-fit w-3/4 xl:w-1/2 bg-[#161616] mt-8 p-8 flex flex-col justify-center">
               <div>
                 <h1 className="font-bold text-3xl uppercase text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA]">Neo</h1>
-                <p className="text-base mt-2 text-white">
+                <p className="text-sm xl:text-base mt-2 text-white">
                   National Entrepreneurship Olympiad is a PAN - India examination and a skill enhancement program for the students of class 7th to 12th grade to nurture and test their entrepreneurial skills. This Olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances...
                 </p>
               </div>

@@ -16,12 +16,12 @@ const Footer = () => {
                 alt="logo"
               />
             </div>
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4 lg:col-span-3">
-              <div className="flex flex-col flex-none items-center lg:items-start gap-2">
+            <div className="grid grid-cols-1 gap-6 lg:gap-x-24 xl:gap-x-6 md:grid-cols-2 xl:grid-cols-4 lg:col-span-3">
+              <div className="flex flex-col items-center gap-2">
                 <p className="font-bold text-xl uppercase text-start">Consortium&apos;23</p>
-                <p className="text-center lg:text-start text-base mt-4 w-1/2 lg:w-full">Consortium, the Annual Entrepreneurship Summit and Management Fest of VNIT, Nagpur</p>
+                <p className="text-center text-base mt-4 w-1/2 lg:w-full">Consortium, the Annual Entrepreneurship Summit and Management Fest of VNIT, Nagpur</p>
               </div>
-              <div className="flex flex-col shrink items-center lg:items-start gap-2">
+              <div className="flex flex-col items-center gap-2">
                 <p className="font-bold text-xl uppercase text-start">Quick Links</p>
                 <nav className="flex flex-col mt-4 space-y-2 items-center lg:items-start text-sm text-white">
                   <Link className="hover:opacity-75 uppercase" href="https://startupconclave.ecellvnit.org/">
@@ -38,9 +38,9 @@ const Footer = () => {
                   </Link>
                 </nav>
               </div>
-              <div className="flex flex-col grow items-center lg:items-start gap-2">
+              <div className="flex flex-col items-center gap-2">
                 <p className="font-bold text-xl uppercase text-start">Contact Us</p>
-                <nav className="flex flex-col space-y-2 mt-4 text-start text-sm text-white">
+                <nav className="flex flex-col space-y-2 mt-4 text-center text-sm xl:text-base text-white">
                   <a className="hover:opacity-75" target="_blank" rel="noreferrer" href="mailto:contact@ecellvnit.org">
                     For Public Affairs & Communications: <br />
                     <strong>
@@ -53,7 +53,7 @@ const Footer = () => {
                   </a>
                 </nav>
               </div>
-              <div className="flex flex-col items-center lg:items-start gap-2">
+              <div className="flex flex-col items-center gap-2">
                 <p className="font-bold text-xl uppercase">Follow Us</p>
                 <nav className="flex flex-col mt-4 space-y-3 items-start text-sm text-white">
                   <Link
@@ -115,9 +115,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center pt-10">
+          <div className="flex flex-col pl-16 justify-center items-center pt-10">
             <p className="font-bold text-xl uppercase">Visit us</p>
-            <p className="text-center lg:text-start text-base mt-4 w-full lg:w-1/3">E-Cell office, 1st Floor VNIT Canteen, Visvesvaraya National Institute Of Technology, South Ambazari Road, Abhyankar Nagar, Nagpur-440010</p>
+            <p className="text-center lg:text-start text-sm lg:text-base mt-4 w-full lg:w-1/3">E-Cell office, 1st Floor VNIT Canteen, Visvesvaraya National Institute Of Technology, South Ambazari Road, Abhyankar Nagar, Nagpur-440010</p>
             <p className="mt-8 text-2xl text-white">Copyright:
               <span className="text-[#0298F9]">
                 { } E-CELL VNIT

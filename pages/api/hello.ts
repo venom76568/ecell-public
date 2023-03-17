@@ -4,9 +4,11 @@ type Data = {
   name: string
 }
 
-export default function handler(
+const handler = (
   req: NextApiRequest,
   res: NextApiResponse<Data>
-) {
+) => {
   res.status(200).json({ name: 'Welcome to Ecell VNIT Server' })
 }
+
+export default handler;
