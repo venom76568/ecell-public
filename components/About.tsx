@@ -15,7 +15,7 @@ const About = () => {
                         </div>
                         <div className="flex flex-col px-10 py-14 gap-6 lg:gap-14 justify-center">
                             <div className="uppercase text-2xl md:text-3xl lg:text-4xl xl:text-6xl text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] font-bold">ABOUT E-CELL VNIT</div>
-                            <div className="text-white font-light text-sm sm:text-base md:text-[17px] lg:text-xl">
+                            <div className="text-white text-justify lg:text-left font-light text-[12px] sm:text-base md:text-[17px] lg:text-xl">
                                 E-Cell VNIT is an entrepreneurship cell based at <a href="https://vnit.ac.in">Visvesvaraya National Institute of Technology</a> that mentors and guides new and existing startups. It aims to foster a community of entrepreneurs, with programs and events that provide deserving individuals with opportunities to develop entrepreneurial skills and succeed. E-Cell VNIT also inspires social responsibility in students by empowering social startups. Since its inception in 2003, E-Cell VNIT has guided over 5,000 startups and impacted more than 200,000 students and aspiring entrepreneurs
                             </div>
                             <div className="w-full flex flex-col sm:flex-row gap-10 items-center justify-center text-white text-sm lg:text-xl lg:justify-between">

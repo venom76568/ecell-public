@@ -21,7 +21,7 @@ const navigation = [
 
 const Navbar = () => {
   return (
-    <Popover className="relative w-full bg-black">
+    <Popover className="relative w-full bg-black z-50">
       <div className="pl-10 flex items-center justify-between py-2 md:justify-start md:space-x-10">
         <div className="flex gap-4 justify-start">
           <a href="https://www.ecellvnit.org/">
