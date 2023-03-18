@@ -1,15 +1,16 @@
 'use client'
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import Image from "next/image";
 import React from "react";
 
-const Team = () => {
+const Wallstreet = () => {
   return (
     <div>
       <Navbar />
       <div className="bg-[#0C0C0C] pt-10 pb-36">
         <div className="flex flex-col gap-3 items-center justify-center text-5xl xl:text-6xl font-semibold">
-          <span className="uppercase text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA]">Glimpses</span>
+          <span className="uppercase text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA]">Wallstreet</span>
           <svg className="px-5" width="450" height="1" viewBox="0 0 580 1" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="0.5" x2="580" y2="0.5" stroke="url(#paint0_linear_11_3)" />
             <defs>
@@ -29,4 +30,4 @@ const Team = () => {
     </div>
   );
 };
-export default Team;
+export default Wallstreet;

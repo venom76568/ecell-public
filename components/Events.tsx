@@ -42,7 +42,7 @@ const Events = () => {
               />
               <div className="flex flex-col justify-center gap-8">
                 <span className="font-bold text-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase">Flagship</span>
-                <Link href="https://www.ecellvnit.org/flagshipfinal/index.php" target="_blank" className="text-center bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/2 self-center py-4 text-white text-lg scale-75">Know More</Link>
+                <Link href="/flagship" target="_blank" className="text-center bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase w-1/2 self-center py-4 text-white text-lg scale-75">Know More</Link>
               </div>
             </div>
             <div className="flex flex-col justify-center h-full gap-6 md:mt-10 lg:mt-8 xl:mt-0">
@@ -94,7 +94,7 @@ const Events = () => {
               />
               <div className="flex flex-col justify-center gap-8">
                 <span className="font-bold text-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase">Wallstreet</span>
-                <Link href="https://wallstreet.ecellvnit.org" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/2 self-center py-4 text-white text-lg scale-75">Know More</Link>
+                <Link href="/wallstreet" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/2 self-center py-4 text-white text-lg scale-75">Know More</Link>
               </div>
             </div>
             <div className="flex flex-col justify-center h-full gap-6">
@@ -120,7 +120,7 @@ const Events = () => {
               />
               <div className="flex flex-col justify-center gap-8 lg:mt-9 xl:mt-0">
                 <span className="font-bold text-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase">Render.ico</span>
-                <Link href="https://render.ecellvnit.org" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/2 self-center py-4 text-white text-lg scale-75">Know More</Link>
+                <Link href="/render" target="_blank" className="bg-gradient-to-b from-[#0298F9] to-[#086BEA] uppercase text-center w-1/2 self-center py-4 text-white text-lg scale-75">Know More</Link>
               </div>
             </div>
             <div className="flex flex-col justify-center h-full gap-6">

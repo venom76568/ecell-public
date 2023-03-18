@@ -115,7 +115,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col pl-16 justify-center items-center pt-10">
+          <div className="flex flex-col md:pl-16 justify-center items-center pt-10">
             <p className="font-bold text-xl uppercase">Visit us</p>
             <p className="text-center lg:text-start text-sm lg:text-base mt-4 w-full lg:w-1/3">E-Cell office, 1st Floor VNIT Canteen, Visvesvaraya National Institute Of Technology, South Ambazari Road, Abhyankar Nagar, Nagpur-440010</p>
             <p className="mt-8 text-2xl text-white">Copyright:
