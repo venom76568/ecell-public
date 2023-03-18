@@ -9,7 +9,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      xxs: "395px",
+      xxs: "380px",
 			xs: "475px",
 			...defaultTheme.screens,
     },
@@ -24,7 +24,7 @@ module.exports = {
         "r": "to right",
         "br": "to bottom right",
         "b": "to bottom",
-        "bl": "to bottom left", 
+        "bl": "to bottom left",
         "l": "to left",
         "tl": "to top left",
       },

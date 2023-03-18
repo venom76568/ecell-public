@@ -7,13 +7,13 @@ const Landing = () => {
     <div className="min-h-screen max-w-full bg-[#1C1C1C] bg-[url('/assets/BackgroundImage1.png')] bg-blend-luminosity bg-no-repeat bg-center bg-cover ">
       <div className="h-screen bg-gradient-to-t from-[rgba(0,0,0,0.8)] to-[rgb(0,0,0,0.56)]">
         <div className="h-[90%] w-full lg:h-full grid grid-rows-5 md:grid-rows-4 items-center text-white p-4">
-          <div className="row-span-3 lg:row-span-2 text-start sm:text-center text-3xl xs:text-4xl sm:text-5xl lg:text-7xl xl:text-8xl font-bold px-4 space-y-3 mt-10 flex flex-col">
+          <div className="row-span-3 lg:row-span-2 text-start sm:text-center text-2xl flex-wrap xxs:text-3xl xs:text-4xl sm:text-5xl lg:text-7xl xl:text-8xl font-bold px-4 space-y-3 mt-10 flex flex-col">
             <span className="text-white">THE</span>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#086BEA] to-[#0298F9]">ENTREPRENEURSHIP CELL</span>
             <span className="text-white">VNIT NAGPUR</span>
           </div>
           <div className="self-start flex flex-row items-center gap-6 lg:gap-8 w-full py-10 space-x-5">
-            <div className="w-1/3 md:w-1/4 xl:w-2/5 bg-gradient-to-r from-[#0298F9] via-[#0482F1] to-[#086BEA] h-[5px] mix-blend-normal" />
+            <div className="w-1/3 md:w-1/4 xl:w-2/5 bg-gradient-to-r from-[#0298F9] via-[#0482F1] to-[#086BEA] h-[2px] lg:h-[5px] mix-blend-normal" />
             <div className="w-1/3 md:w-1/2 xl:w-1/5 flex gap-6 lg:gap-10 justify-center self-center lg:self-start">
               <Link
                 className="hover:opacity-75"
@@ -117,7 +117,7 @@ const Landing = () => {
                 </svg>
               </Link>
             </div>
-            <div className="w-1/3 md:w-1/4 xl:w-2/5 bg-gradient-to-r items-center from-[#0298F9] via-[#0482F1] to-[#086BEA] h-[5px] mix-blend-normal" />
+            <div className="w-1/3 md:w-1/4 xl:w-2/5 bg-gradient-to-r items-center from-[#0298F9] via-[#0482F1] to-[#086BEA] h-[2px] lg:h-[5px] mix-blend-normal" />
           </div>
           <div className="row-span-2 lg:row-span-1 self-start flex justify-center items-center">
             <a href="#about">
