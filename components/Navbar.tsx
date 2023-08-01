@@ -5,7 +5,6 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import React from "react";
 import Image from "next/image";
-
 import ecellLogoWhite from "../public/assets/ecell-white-img.png";
 import ecellLogoBlack from "../public/assets/ecell-black-img.png";
 
