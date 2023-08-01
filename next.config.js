@@ -27,7 +27,7 @@ export const images = {
   // limit of 50 objects
   remotePatterns: [],
   // when true, every image will be unoptimized
-  unoptimized: false,
+  unoptimized: true,
 };
 export const experimental = {
   appDir: true,
