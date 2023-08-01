@@ -10,8 +10,6 @@ export const images = {
   path: "/_next/image",
   // loader can be 'default', 'imgix', 'cloudinary', 'akamai', or 'custom'
   loader: "default",
-  // file with `export default function loader({src, width, quality})`
-  loaderFile: "akamai",
   // disable static imports for image files
   disableStaticImages: false,
   // minimumCacheTTL is in seconds, must be integer 0 or more
@@ -27,7 +25,7 @@ export const images = {
   // limit of 50 objects
   remotePatterns: [],
   // when true, every image will be unoptimized
-  unoptimized: true,
+  unoptimized: false,
 };
 export const experimental = {
   appDir: true,
