@@ -6,11 +6,8 @@ import React from "react";
 
 import bhatt_sir from "../../public/assets/team/bhatt_sir.png";
 import karthik_sir from "../../public/assets/team/karthik_sir.png";
-import khanwani from "../../public/assets/team/khanwani.jpg";
 import priyanshu from "../../public/assets/team/priyanshu2.jpg";
-import rohit from "../../public/assets/team/rohit.jpg";
 import taiwade_sir from "../../public/assets/team/taiwade_sir.jpeg";
-import tanishqa from "../../public/assets/team/tanishqa.jpg";
 import harsh from "../../public/assets/team/harsh4.jpg"
 import aneesh from "../../public/assets/team/aneesh2.jpg"
 import harshitha from "../../public/assets/team/harshitha.jpg"
