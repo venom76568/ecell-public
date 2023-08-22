@@ -6,20 +6,20 @@ import React from "react";
 
 import bhatt_sir from "../../public/assets/team/bhatt_sir.png";
 import karthik_sir from "../../public/assets/team/karthik_sir.png";
-import priyanshu from "../../public/assets/team/priyanshu2.jpg";
+import priyanshu from "../../public/assets/team/priyanshu3.jpg";
 import taiwade_sir from "../../public/assets/team/taiwade_sir.jpeg";
-import harsh from "../../public/assets/team/harsh4.jpg"
-import aneesh from "../../public/assets/team/aneesh2.jpg"
+import harsh from "../../public/assets/team/harsh5.jpg"
+import aneesh from "../../public/assets/team/aneesh3.jpg"
 import harshitha from "../../public/assets/team/harshitha.jpg"
-import jai from "../../public/assets/team/jai.jpg"
-import khushi from "../../public/assets/team/khushi2.jpg"
-import nikhil from "../../public/assets/team/nikhil1.jpg"
-import pranay from "../../public/assets/team/pranay1.jpg"
+import jai from "../../public/assets/team/jai1.jpg"
+import khushi from "../../public/assets/team/khushi3.jpg"
+import nikhil from "../../public/assets/team/nikhil2.jpg"
+import pranay from "../../public/assets/team/pranay2.jpg"
 import shravani from "../../public/assets/team/shravani.jpeg"
 import shruti from "../../public/assets/team/shruti1.jpg"
 import anubhav from "../../public/assets/team/anubhav.jpg"
-import ishan from "../../public/assets/team/ishan2.jpg"
-import aditya from "../../public/assets/team/aditya2.jpeg"
+import ishan from "../../public/assets/team/ishan4.jpg"
+import aditya from "../../public/assets/team/aditya6.jpg"
 import sanchit from "../../public/assets/team/sanchit.png"
 import nirmayee from "../../public/assets/team/nirmayee1.jpeg"
 import Link from "next/link";
@@ -63,11 +63,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={bhatt_sir}
-                            alt="Bhat"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="bhatt"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -83,11 +84,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={taiwade_sir}
-                            alt="Taiwade"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="taiwade"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -102,11 +104,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={karthik_sir}
-                            alt="Karthik"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="karthik"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -141,11 +144,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={priyanshu}
-                            alt="Priyanshu"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="priyanshu"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -177,11 +181,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={nikhil}
-                            alt="Nikhil"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="nikhil"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -213,11 +218,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={ishan}
-                            alt="Ishan"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="ishan"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -249,11 +255,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={pranay}
-                            alt="Pranay"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="pranay"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -285,11 +292,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={shruti}
-                            alt="Shruti"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="shruti"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -321,11 +329,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={aditya}
-                            alt="Aditya"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="aditya"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -357,11 +366,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={harshitha}
-                            alt="Harshitha"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="harshitha"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -393,11 +403,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={harsh}
-                            alt="Harsh"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="harsh"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -429,11 +440,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={sanchit}
-                            alt="Sanchit"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="sanchit"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -465,11 +477,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={aneesh}
-                            alt="Aneesh"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="aneesh"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -501,11 +514,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={nirmayee}
-                            alt="Nirmayee"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="nirmayee"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -537,11 +551,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={anubhav}
-                            alt="Anubhav"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="anubhav"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -573,11 +588,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={khushi}
-                            alt="Khushi"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="khushi"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -609,11 +625,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={jai}
-                            alt="Jai"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="jai"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
@@ -645,11 +662,12 @@ const Team = () => {
                   <div>
                     <div className="border-2 border-gradient-t-secondary scale-90">
                       <div className="bg-gradient-to-b from-[rgba(2,152,249,0)] to-[rgba(8,107,234,0.5)] ">
-                        <div className="flex flex-col justify-center gap-6 h-[320px] overflow-clip">
+
+                        <div className="relative w-full h-[320px]">
                           <Image
                             src={shravani}
-                            alt="Shravani"
-                            className="p-1 scale-[1.2] md:scale-[1.38] w-full"
+                            alt="shravani"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
