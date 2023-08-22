@@ -8,7 +8,7 @@ import bhatt_sir from "../../public/assets/team/bhatt_sir.png";
 import karthik_sir from "../../public/assets/team/karthik_sir.png";
 import priyanshu from "../../public/assets/team/priyanshu3.jpg";
 import taiwade_sir from "../../public/assets/team/taiwade_sir.jpeg";
-import harsh from "../../public/assets/team/harsh5.jpg"
+import harsh from "../../public/assets/team/harsh7.jpg"
 import aneesh from "../../public/assets/team/aneesh3.jpg"
 import harshitha from "../../public/assets/team/harshitha.jpg"
 import jai from "../../public/assets/team/jai1.jpg"
