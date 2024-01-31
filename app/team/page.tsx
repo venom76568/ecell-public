@@ -1024,7 +1024,7 @@ const Team = () => {
                         Khushi Tank
                       </span>
                       <span className="font-medium text-lg text-center text-white">
-                        Head of Public Relations
+                        Head of Operations
                       </span>
                       <div className="flex justify-center gap-5 mb-5">
                         <Link
