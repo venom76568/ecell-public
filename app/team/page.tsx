@@ -79,7 +79,44 @@ const Team = () => {
                 </defs>
               </svg>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-16 justify-evenly items-center pt-20">
+            <div className="grid grid-cols-1 md:grid-cols-3 justify-evenly items-center pt-20 gap-10">
+              {/* Faculty Title */}
+              <div className="md:col-span-3 lg:col-span-3 justify-center items-center flex flex-col gap-10">
+                <div className="flex flex-col gap-3 items-center justify-center text-4xl xl:text-5xl font-semibold">
+                  <span className="uppercase text-transparent bg-clip-text bg-gradient-to-b from-[#0298F9] to-[#086BEA]">
+                    Faculty
+                  </span>
+                  <svg
+                    width="350"
+                    height="1"
+                    viewBox="0 0 580 1"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <line
+                      y1="0.5"
+                      x2="580"
+                      y2="0.5"
+                      stroke="url(#paint0_linear_11_3)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_11_3"
+                        x1="622.006"
+                        y1="1"
+                        x2="-40.7939"
+                        y2="0.999999"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stopColor="white" stopOpacity="0" />
+                        <stop offset="0.501042" stopColor="white" />
+                        <stop offset="1" stopColor="white" stopOpacity="0" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+
               {/* Professor 1 */}
               <div>
                 <div className="border-2 border-gradient-t-secondary scale-90">
