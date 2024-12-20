@@ -70,7 +70,7 @@ const Footer = () => {
                     href="mailto:contact@ecellvnit.org"
                   >
                     For Public Affairs & Communications: <br />
-                    <strong>publicrelations@ecellvnit.ac.in</strong>
+                    <strong>publicrelations@ecellvnit.co.in</strong>
                   </a>
                   <a
                     className="hover:opacity-75"
