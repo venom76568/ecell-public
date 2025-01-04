@@ -961,7 +961,7 @@ const Team = () => {
                       </span>
                       <div className="flex justify-center gap-5 mb-5">
                         <Link
-                          href="https://www.linkedin.com/in/tanvi-malode-5744a4258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                          href="https://www.linkedin.com/in/abhijeet-singh-as1510"
                           target="_blank"
                         >
                           <svg
